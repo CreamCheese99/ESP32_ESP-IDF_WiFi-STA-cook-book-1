@@ -121,6 +121,7 @@ I (10299) wifi station: Failed to connect to SSID:myssid, password:mypassword
 For any technical queries, please open an [issue](https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
 
 ## แนวทางการทำงาน ESP32_ESP-IDF_WiFi-STA cook book 1
+### ระบุตัวอย่างที่ใช้ ว่าเอามาจากตัวอย่างไหน
 1.ขั้นตอนการสร้างโปรเจคใหม่บน ESP-IDF โดยใช้ตัวอย่างโปรเจคสำหรับ Wi-Fi Station เพื่อให้ ESP32 เชื่อมต่อกับ Wi-Fi ในโหมด Station
 ขั้นตอน:
 1.	ค้นหาเทมเพลตโปรเจค ในช่องค้นหา ให้พิมพ์คำว่า "station"  
@@ -128,17 +129,22 @@ For any technical queries, please open an [issue](https://github.com/espressif/e
  
 ![image](https://github.com/user-attachments/assets/a91d5b36-fb4a-432e-bb7c-1b1640e3ef13)
 
+### ระบุว่า จะแก้ไขตรงไหนบ้าง เพื่ออะไร
 2.การตั้งค่าโปรเจ็กต์:
 ในส่วน Configure the project เปิด Example Configuration เพื่อกำหนดค่า Wi-Fi โดยตั้งค่า WiFi SSID และ WiFi Password ที่ต้องการใช้ในการเชื่อมต่อ
 
  ![image](https://github.com/user-attachments/assets/6e5e9a5c-f852-48cc-8270-19ac33ddc3ec)
 
+### แสดงขั้นตอนการทำ project
 3.ไฟล์ Kconfig.projectbuild ทำการกำหนดค่า Wi-Fi โดยตั้งค่า WiFi SSID และ WiFi Password ให้ตรงกับขั้นตอนที่ 3 
   ![image](https://github.com/user-attachments/assets/bbd10b55-0705-49e5-a34d-13ee568ac564)
 
+### แสดงผลการทำ project
 4.การคอมไพล์และแฟลชลงบนบอร์ด   หากเชื่อมต่อสำเร็จจะแสดงผลดังภาพนี้
 ![image](https://github.com/user-attachments/assets/dc81e909-e388-4460-a7e1-f9b7ed9a1f69)
 
  
-
+## สรุป 
+การตั้งค่าและแฟลชโปรเจ็กต์ตัวอย่าง Wi-Fi Station สำหรับ ESP32 บน ESP-IDF โดยขั้นตอนคร่าว ๆ 
+คือการเลือกโปรเจ็กต์จากเทมเพลต ตั้งค่า Wi-Fi SSID และ Password ในการเชื่อมต่อ จากนั้นใช้คำสั่งคอมไพล์และแฟลชโปรเจ็กต์ไปยังบอร์ด ESP32
 

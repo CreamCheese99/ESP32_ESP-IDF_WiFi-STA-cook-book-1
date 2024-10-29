@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32_ESP-IDF_WiFi-STA-cook-book-1",
-    "project_version":    "1",
+    "project_version":    "c70b8da-dirty",
     "project_path":       "D:/Specail Topic - Cook book/ESP32_ESP-IDF_WiFi-STA-cook-book-1",
     "idf_path":           "D:/Esp32_specailTopic/v5.2.2/esp-idf",
     "build_dir":          "D:/Specail Topic - Cook book/ESP32_ESP-IDF_WiFi-STA-cook-book-1/build",
